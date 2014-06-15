@@ -1,9 +1,38 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-</div>
-
-<div class="row">
-  <div class="col-xs-12">
-      {{ content }}
+<div class="landing-page-main">
+  <div class="landing-page-card">
+    <div class="row text-center landing-page-text">
+      <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
+        <div class="row text-center">
+          <img src="{{ BASE_PATH }}images/pedrombafonso.png" class="img-circle landing-page-avatar">
+        </div>
+        <h1 class="landing-page-name">Pedro Baptista Afonso</h1>
+        <p class="landing-page-desc">
+          I'm a full-stack web developer, based in Lisbon, Portugal.
+          I care about simplicity and performance for better user experience.
+        </p>
+        <div class="row landing-page-contacts">
+          <div class="col-sm-6 landing-page-phone">
+            <p class="hidden-xs text-right">
+              <i class="fa fa-phone"></i>
+              <a href="callto:00351963512262">(+351) 96 351 22 62</a>
+            </p>
+            <p class="visible-xs">
+              <i class="fa fa-phone"></i>
+              <a href="tel:00351963512262">(+351) 96 351 22 62</a>
+            </p>
+          </div>
+          <div class="col-sm-6 landing-page-email">
+            <p class="hidden-xs text-left">
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:mail@pedroafonso.net">mail@pedroafonso.net</a>
+            </p>
+            <p class="visible-xs">
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:mail@pedroafonso.net">mail@pedroafonso.net</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
