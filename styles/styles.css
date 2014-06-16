@@ -2,9 +2,7 @@ html {
   height: 100%;
 }
 body {
-  background: url(/images/background.png) no-repeat center center fixed;
-  min-height:100%;
-  background-size:cover;
+  background: url(/images/px_by_Gre3g.png);
   position: absolute;
   top: 0;
   left: 0;
